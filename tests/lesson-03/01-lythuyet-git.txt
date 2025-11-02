@@ -1,0 +1,4 @@
+git commit --amend: Thêm thay đổi vào commit cuối cùng - không sửa commit message
+git commit --amend -m”<message>”:  Thêm thay đổi vào commit cuối cùng - sửa commit message
+git restore --staged <file>: đưa file <file> từ vùng staging về vùng working directory
+git reset HEAD~1: đưa 1 commit gần nhất (cuối cùng) từ vùng repository về vùng working directory
