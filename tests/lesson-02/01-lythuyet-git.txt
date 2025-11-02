@@ -1,0 +1,4 @@
+- git init: khởi tạo git cho một thư mục cụ thể.
+- git add <file_name>: Thêm file <file_name> vào vùng staging
+- git add .: Thêm tất cả các file ở vùng working directory vào vùng staging.
+- git commit -m"message": Tạo một commit với message là "message"
