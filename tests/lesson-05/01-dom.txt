@@ -1,0 +1,89 @@
+1. Basic DOM structure of a website includes tags:
+- <html>: The root element of an HTML page, enclosing all other HTML elements.
+- <head>: Contains metadata about the HTML document, such as the page title, character set, and links to external stylesheets.
+- <title>: Defines the title of the HTML document, displayed in the browser tab or window title bar.
+- <body>: Contains the visible content of the HTML document, including text, images, and other elements.
+- <div>: A block-level container used to group other HTML elements for styling or scripting purposes.
+- <span>: An inline container used to group inline-level elements for styling or scripting.
+- <header>, <footer>, <nav>, <section>: semantic tags
+- <h1> to <h6> : Defines headings
+- <p>: Defines a paragraph
+- <a>: Defines a hyperlink
+- <img>: Defines an image
+- <ul>, <ol>, <li>: Defines a list
+- <form>: Defines an HTML form for user input.
+- <input>: Defines an input control (text, password, checkbox, radio, etc.)
+- <button>: Defines a clickable button
+- <select> and <option>: Defines a drop-down list and option in a drop-down list
+- <textarea>: Defines a multiline input control (text area)
+
+2. Structure of a table:
+An html table will be structured by below tags:
+ - <table>: The container that wraps the entire table
+ - <thead>: Contains the header row
+ - <tbody>: Contains the main data rows
+ - <tfoot>: Contains summary or footer rows
+ - <tr>: Represents one row in the table
+ - <th>: A header cell
+ - <td>: A data cell
+ - attribute colspan is used to merge cell columns
+
+ Structure: 
+ table
+ ├── thead
+ │    └── tr
+ │         ├── th
+ │         ├── th
+ │         └── th
+ ├── tbody
+ │    ├── tr
+ │    │    ├── td
+ │    │    ├── td
+ │    │    └── td
+ │    └── tr
+ │         ├── td
+ │         ├── td
+ │         └── td
+ └── tfoot
+      └── tr
+           └── td
+
+Example:
+
+<table>
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Họ tên</th>
+      <th>Tuổi</th>
+      <th>Địa chỉ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Nguyễn Văn A</td>
+      <td>25</td>
+      <td>Hà Nội</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Trần Thị B</td>
+      <td>30</td>
+      <td>TP. HCM</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Lê Văn C</td>
+      <td>28</td>
+      <td>Đà Nẵng</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">Tổng</td>
+      <td>83</td>
+      <td>3 người</td>
+    </tr>
+  </tfoot>
+</table>
